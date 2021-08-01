@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #090b1a;
+  font-family: 'inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px 40px;
+}
+
+@media screen and (min-width: 645px) {
+  body .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 130px;
+  }
+}
+
+body .container-left {
+  background: #1b1938;
+  text-align: center;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+@media screen and (min-width: 645px) {
+  body .container-left {
+    width: 60%;
+    height: 50%;
+    text-align: left;
+    border-radius: 10px 0px 0px 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body .container-left {
+    width: 40%;
+  }
+}
+
+body .container-left-content {
+  width: 135%;
+  margin-left: -20px;
+  padding: 20px;
+  margin-left: -35px;
+}
+
+@media screen and (min-width: 645px) {
+  body .container-left-content {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body .container-left-content {
+    width: 95%;
+    margin-left: 20px;
+  }
+}
+
+body .container-left-content-up h1 {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+body .container-left-content-up h1 span {
+  color: #aa5cdb;
+}
+
+@media screen and (min-width: 645px) {
+  body .container-left-content-up h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body .container-left-content-up h1 {
+    font-size: 2.3rem;
+  }
+}
+
+body .container-left-content-up p {
+  padding-bottom: 40px;
+  color: rgba(205, 198, 198, 0.6);
+  line-height: 1.8em;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 645px) {
+  body .container-left-content-up p {
+    font-size: 0.8rem;
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body .container-left-content-up p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 645px) {
+  body .container-left-content-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body .container-left-content-bottom {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 645px) {
+  body .container-left-content-bottom h2 {
+    font-size: 1.5rem;
+  }
+}
+
+body .container-left-content-bottom p {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: rgba(205, 198, 198, 0.6);
+  text-transform: uppercase;
+  font-size: .65rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1440px) {
+  body .container-left-content-bottom p {
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+}
+
+body .container-right img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+@media screen and (min-width: 645px) {
+  body .container-right img {
+    border-radius: 0px 10px 10px 0px;
+    width: 105%;
+    height: 406px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body .container-right img {
+    height: 428px;
+  }
+}
+
+body .container-right .overlay {
+  position: absolute;
+  top: 60px;
+  left: 40;
+  bottom: 0;
+  width: 77.9%;
+  height: 36.2%;
+  border-radius: 10px 10px 0px 0px;
+  background: rgba(72, 13, 110, 0.5);
+}
+
+@media screen and (min-width: 645px) {
+  body .container-right .overlay {
+    width: 45.5%;
+    height: 48%;
+    top: 189.8px;
+    border-radius: 0px 10px 10px 0px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body .container-right .overlay {
+    width: 35.8%;
+    height: 50.6%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
